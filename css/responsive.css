@@ -1,0 +1,184 @@
+/* 2xl - Telas grandes */
+@media (max-width: 1536px) {
+    .header__title {
+        font-size: 2.8em;
+    }
+    
+    .intro__title, .section__title {
+        font-size: 2.2em;
+    }
+}
+
+/* xl - Desktops e laptops */
+@media (max-width: 1280px) {
+    .header__menu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        justify-items: center; 
+    }
+    
+    .menu__link {
+        padding: 8px 16px;
+        font-size: 0.9em;
+        text-align: center;
+    }
+    
+     .intro__title, .section__title {
+        font-size: 2em;
+    }
+    
+    .about__item, .gallery__item, .service__item, .news__item {
+        flex-direction: column;
+    }
+}
+
+/* lg - Tablets em paisagem */
+@media (max-width: 1024px) {
+    .header__menu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        justify-items: center; 
+    }
+    
+    .menu__link {
+        padding: 8px 16px;
+        font-size: 0.8em;
+        text-align: center;
+    }   
+    
+    .header__title {
+        font-size: 2.2em;
+    }
+    
+    .intro__title, .section__title {
+        font-size: 1.8em;
+    }
+   
+    .about__grid, .gallery__grid, .services__list, .news__grid {
+        flex-direction: column;
+    }
+
+    .about__grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        justify-items: center; 
+    }
+
+    .gallery__grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-items: center; 
+    }
+
+    .services__list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-items: center; 
+    }
+
+    .news__grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-items: center; 
+    }
+}
+
+/* md - Tablets em modo retrato */
+@media (max-width: 768px) {
+    .intro__title, .section__title {
+        font-size: 1.6em;
+    }
+    
+    .intro__button, .menu__link, .btn-more, .form__button {
+        padding: 8px 16px;
+    }
+    
+    .form__group {
+        flex-direction: column;
+    }
+    
+    .header__menu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        justify-items: center; 
+    }
+    
+    .menu__link {
+        padding: 8px 16px;
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .about__grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        justify-items: center; 
+    }   
+}
+
+/* sm - Smartphones */
+@media (max-width: 640px) {
+    .header {
+        padding: 10px;
+    }
+    
+    .header__title {
+        font-size: 1.8em;
+    }
+
+    .intro__button, .btn-more, .form__button {
+        font-size: 0.9em;
+        padding: 8px 14px;
+    }
+    
+    .about__item, .gallery__item, .service__item, .news__item {
+        max-width: 100%;
+    }
+    
+    .header__menu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        justify-items: center; 
+    }
+}
+
+/* xs - Smartphones pequenos */
+@media (max-width: 475px) {
+    .header__title {
+        font-size: 1.5em;
+    }
+    
+    .intro__title, .section__title {
+        font-size: 1.4em;
+    }
+    
+    .intro__text {
+        font-size: 1em;
+    }
+    .footer__social {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .header__menu {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-items: center; 
+    }
+    
+    .menu__link {
+        padding: 6px 12px;
+        font-size: 0.8em;
+        text-align: center;
+    }
+}

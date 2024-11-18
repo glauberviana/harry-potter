@@ -1,0 +1,349 @@
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+
+body {
+    font-family: Arial, sans-serif;
+    color: #e0d4b1;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url('img/F1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__title {
+    font-family: 'Harry Potter', sans-serif;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.intro__text{
+    color: white;
+}
+
+.header__subtitle {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.header__menu {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    gap: 15px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 16px;
+    background-color: #8c7112;
+    border-radius: 20px;
+}
+
+.menu__link:hover {
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7);
+    background-color: #1b7bca;
+    transform: translateY(-5px);
+    transition: .2s;
+}
+
+.section--intro {
+    background-image: url(https://www.harrypotter.com/images/home/horizons_train.png), url(https://www.harrypotter.com/images/home/stars.png), 
+    linear-gradient(180deg, #18150e, #323657 121.35%);
+    background-repeat: no-repeat;
+    background-size: 100% auto, 1500px auto, 100% 100%;
+    background-position: 50% 101%, 50%, bottom;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.intro__title {
+    font-family: 'Harry Potter', sans-serif;
+    font-size: 2.5rem;
+}
+
+.intro__text {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.intro__button {
+    background-color: #8c7112;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.intro__button:hover{
+    transition: .2s;
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7);
+    background-color: #196a07;
+    transform: translateY(-5px);
+}
+
+.section--about {
+    background-image: url(https://www.harrypotter.com/images/home/stars.png), 
+    linear-gradient(180deg, #18150e, #323657 121.35%);
+    background-position: center;
+    color: #f4e9c3;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__title {
+    font-family: 'Harry Potter', sans-serif;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.about__grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about__item {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    flex: 1 1 300px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.section--gallery {
+    background-image: url(https://www.harrypotter.com/images/home/horizons_quidditch.png), url(https://www.harrypotter.com/images/home/stars.png), 
+    linear-gradient(180deg, #15111d, #323657 121.35%);
+    background-repeat: no-repeat;
+    background-size: 100% auto, 1500px auto, 100% 100%;
+    background-position: 50% 101%, 50%, bottom;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section--gallery::before{
+    background-image: url(https://media.tenor.com/a1nW-SVZ2iQAAAAj/sniper-potter-pt2.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.gallery__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery__item {
+    background-color: #333;
+    border: 2px solid #333;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery__img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.gallery__caption {
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.btn-more {
+    background-color: #8c7112;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-more:hover {
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7);
+    background-color: #928b06;
+    transform: translateY(-5px);
+    transition: .2s;
+}
+
+.section--services {
+    background-image: url(https://www.harrypotter.com/images/home/horizons_train.png), url(https://www.harrypotter.com/images/home/stars.png), 
+    linear-gradient(180deg, #18150e, #323657 121.35%);
+    background-repeat: no-repeat;
+    background-size: 100% auto, 1500px auto, 100% 100%;
+    background-position: 50% 101%, 50%, bottom;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.services__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.service__item {
+    background-color: #2b2b2b;
+    padding: 20px;
+    border-radius: 8px;
+    color: #f4e9c3;
+    flex: 1 1 250px;
+    max-width: 250px;
+    text-align: center;
+}
+
+.section--news {
+    background-image: url(https://www.harrypotter.com/images/home/horizons_bridge.png), url(https://www.harrypotter.com/images/home/stars.png), 
+    linear-gradient(180deg, #15111d, #323657 121.35%);
+    background-repeat: no-repeat;
+    background-size: 100% auto, 1500px auto, 100% 100%;
+    background-position: 50% 101%, 50%, bottom;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.news__grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.news__item {
+    background-color: #2b2b2b;
+    border: 2px solid #333;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news__img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.news__content {
+    padding: 15px;
+    color: #f4e9c3;
+}
+
+.section--contact {
+    background-image: url(https://www.harrypotter.com/images/home/stars.png), 
+    linear-gradient(180deg, #18150e, #323657 121.35%);
+    background-position: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_input, .form_button {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: none;
+    color: #f4e9c3;
+}
+
+.footer {
+    background-image: url(https://www.harrypotter.com/images/home/stars.png), 
+    linear-gradient(180deg, #18150e, #323657 121.35%);
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    color: #f4e9c3;
+}
+
+.footer__social {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.social__link {
+    color: #f4e9c3;
+    text-decoration: none;
+}
+
+.social__link:hover {
+    color: #8b0000;
+}
+
+.form__button{
+    background-color: #8c7112;
+    color: #f4e9c3;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.form__button:hover{
+    transition: .2s;
+    cursor: pointer;
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7);
+    background-color: #700808;
+    transform: translateY(-5px);
+}
